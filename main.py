@@ -1,8 +1,6 @@
 # Brand Name Generator
 
-print("Welcome to the Brand Name Generator!")
-city = input("What's the name of the city you grew up in?\n")
-pet = input("What's your pet's name?\n")
-brand_name = city + " " + pet
-
-print("Your brand name could be: " + brand_name)
+print("Welcome to the brand name generator.")
+city = input("What is the city you grew up in?")
+pet = input("What's your pet's name?")
+print("Your brand name could be " + city + " " + pet)
